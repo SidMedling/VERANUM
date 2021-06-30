@@ -1,0 +1,197 @@
+
+
+
+/*Globales*/
+
+img{
+    max-width:100%;
+}
+
+.contenedor{
+
+    max-width: 120rem;
+    margin: 0 auto;
+    
+}
+
+
+
+
+
+h1{
+    font-size: 3.8rem
+}
+h2{ 
+    font-size: 3.4rem
+}
+h3{
+    font-size: 3rem
+}
+h4{
+    font-size: 2.6rem
+}
+
+
+/*Utilidades*/
+
+.seccion{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.fw-300{
+
+    font-weight:300;
+}
+
+.centrar-texto{
+
+    text-align:center;
+
+}
+
+
+.hotel-servicios{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+
+   
+}
+
+.agrupacion-servicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+    margin-bottom: 10px;
+    
+}
+
+.card-title{
+    font-size: 30px ;
+    
+}
+
+.ubicacion{
+    color: gray;
+}
+
+
+
+.hotel-nombre{
+    font-family: Century Gothic, CenturyGothic,  sans-serif;
+    font-weight: 300;
+    
+}
+
+.card-body p{
+ font-size: 16px;
+}
+
+.agrupacion-servicio{
+    font-size: 16px;
+    font-weight: 400;
+    color: #317053;
+
+    font-family: Open Sans;
+}
+
+
+
+
+
+
+/**PAGINA HABITACIONES**/
+
+
+.body-fondo{
+    background-image: url(../resources/habitaciones/fondo2.jpg);
+    background-size: cover;
+    
+
+    
+}
+
+
+
+.contenedor-habitacion{
+    background-color: white;
+   
+
+    margin-top:20px;
+   
+}
+
+
+
+.habitacion__contenido{
+    padding:15px
+}
+
+
+.habitacion__caracteristica{
+    padding-left: -20px;
+    font-size: 20px;
+}
+
+
+.habitacion__caracteristica li{
+    list-style: none;
+    
+}
+
+.lista-modificacion{
+    height:80px;
+    
+}
+
+.precio {
+    margin-top: 150px;
+    
+}
+.precio p{
+    font-size:15px;
+}
+
+
+
+.precio button{
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 10px 10px -10px;
+    height: 50px;
+  
+}
+
+
+@media (min-width: 1200px){
+
+    .contenedor-habitacion{
+        display:grid;
+        grid-template-columns: 3fr 2fr ;
+    }
+
+    .habitacion__img{
+        padding:10px
+    }
+
+    .habitacion__contenido{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    
+    
+
+    
+}
+
+
+.habitacion__heading p{
+    font-size:16px;
+}
+
+
+
+
